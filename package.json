@@ -10,10 +10,10 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "engines": {
-    "node": "18.x",
-    "npm": "9.x"
-  },
+ "engines": {
+  "node": ">=20.0.0",
+  "npm": ">=9.0.0"
+},
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
     "class-variance-authority": "^0.7.1",
