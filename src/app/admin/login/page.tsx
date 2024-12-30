@@ -16,7 +16,7 @@ const AdminLogin: React.FC = () => {
     setError('');
 
     try {
-      const response = await fetch('https://mern-backend-f2iz.onrender.com/api/admin/login', {
+      const response = await fetch('https://mern-backend-zcjs.onrender.com/api/admin/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
