@@ -8,7 +8,11 @@ export default defineConfig({
     rollupOptions: {
       external: ['react-dom/client']  // Explicitly add if necessary
     }
-  }
+  },
+  server: {
+    host: true, // Allows listening on all network interfaces
+    port: process.env.PORT || 5173, // Render provides a PORT variable
+  },
   
   
 })
